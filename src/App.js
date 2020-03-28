@@ -7,7 +7,7 @@ class AntdStudy extends React.Component{
       <div>
         <Button>点击</Button>
         <InputNumber/>
-        提交成功
+        提交成功111222
       </div>
     )
   }
