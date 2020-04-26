@@ -3,10 +3,7 @@ import { Form, Button, Input, InputNumber, Modal } from 'antd'
 import getResultIndex from '../../utils/getResultIndex'
 
 class Content1 extends React.Component {
-    state = {
-        collapsed: false,
-        showIndex: 1
-    };
+    state = {};
     query = () => {
         this.props.form.validateFields((err, values) => {
             if (!err) {
