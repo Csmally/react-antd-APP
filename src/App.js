@@ -32,7 +32,8 @@ class AntdStudy extends React.Component {
           {this.state.flag == false ? '' : <A />}
         </div>
       </div>
-    )
+
+)
   }
 }
 
